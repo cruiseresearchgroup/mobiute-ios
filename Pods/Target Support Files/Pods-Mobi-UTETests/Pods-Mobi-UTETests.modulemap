@@ -1,0 +1,6 @@
+framework module Pods_Mobi_UTETests {
+  umbrella header "Pods-Mobi-UTETests-umbrella.h"
+
+  export *
+  module * { export * }
+}

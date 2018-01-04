@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDB8C88C04DFC444A1DFA1D /* Pods_Mobi_UTETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304630D974E55CE190A7C2A9 /* Pods_Mobi_UTETests.framework */; };
+		8A350746B0AE5189E2DAE3CF /* Pods_Mobi_UTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69B89C3B351F9A79AB55A3E /* Pods_Mobi_UTE.framework */; };
+		FF06E09D1A5493A10016D06D /* MobiUTE_Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF06E09C1A5493A10016D06D /* MobiUTE_Settings.plist */; };
+		FF06E09F1A5495280016D06D /* ServerSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06E09E1A5495280016D06D /* ServerSettingsService.swift */; };
+		FF0833E01DBFC6FD00D44043 /* UTEModelIntervalLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0833DF1DBFC6FD00D44043 /* UTEModelIntervalLabels.swift */; };
+		FF10FA741DC5D86800F5C38A /* UTEUploadDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF10FA731DC5D86800F5C38A /* UTEUploadDataService.swift */; };
+		FF10FA771DC5E68300F5C38A /* SessionFinishedHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF10FA761DC5E68300F5C38A /* SessionFinishedHandlerProtocol.swift */; };
+		FF13648C1A63888A0006B233 /* UserSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13648B1A63888A0006B233 /* UserSettingsService.swift */; };
+		FF25913A1DDEE8F600155C40 /* UTEModelBluetoothInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2591391DDEE8F600155C40 /* UTEModelBluetoothInfo.swift */; };
+		FF25913D1DDFF27500155C40 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF25913C1DDFF27500155C40 /* UIDeviceExt.swift */; };
+		FF3A66091D03EF5C00957D0C /* SessionSetupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3A66081D03EF5C00957D0C /* SessionSetupSettings.swift */; };
+		FF3A660D1D0429F000957D0C /* TransformerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3A660C1D0429F000957D0C /* TransformerUtilities.swift */; };
+		FF3A660F1D043F0000957D0C /* MobiUTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3A660E1D043F0000957D0C /* MobiUTETests.swift */; };
+		FF3A66111D043F1800957D0C /* MobiUTE_Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3A66101D043F1800957D0C /* MobiUTE_Settings.plist */; };
+		FF3DFBC71A5788570019EBC5 /* default.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FF3DFBC61A5788570019EBC5 /* default.sqlite */; };
+		FF46084F1DDCD8EE00736502 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46084E1DDCD8EE00736502 /* CoreBluetooth.framework */; };
+		FF54A08B1D995C50007CED5E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF54A0811D995C50007CED5E /* FMDatabase.m */; };
+		FF54A08C1D995C50007CED5E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF54A0831D995C50007CED5E /* FMDatabaseAdditions.m */; };
+		FF54A08D1D995C50007CED5E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF54A0851D995C50007CED5E /* FMDatabasePool.m */; };
+		FF54A08E1D995C50007CED5E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FF54A0871D995C50007CED5E /* FMDatabaseQueue.m */; };
+		FF54A08F1D995C50007CED5E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF54A08A1D995C50007CED5E /* FMResultSet.m */; };
+		FF6241931AE7F4160031391D /* SessionJourneySummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6241921AE7F4160031391D /* SessionJourneySummaryViewController.swift */; };
+		FF6425AB1A46AFB800F298A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6425AA1A46AFB800F298A3 /* CoreLocation.framework */; };
+		FF6832F61A48E30A005345DD /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6832F51A48E30A005345DD /* SessionViewController.swift */; };
+		FF75AE0A1D0179DC007FA83D /* ExperimentConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75AE091D0179DC007FA83D /* ExperimentConnectViewController.swift */; };
+		FF762C341BBA7285009E8241 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF762C321BBA6E92009E8241 /* libsqlite3.dylib */; };
+		FF813DB91DBCE029002E3985 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF813DB81DBCE029002E3985 /* SettingsViewController.swift */; };
+		FF883F221D017088005BDB03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF883F211D017088005BDB03 /* Default-568h@2x.png */; };
+		FF9102B71A4B0F9300F318BC /* finish.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF9102B51A4B0F9300F318BC /* finish.wav */; };
+		FF9102B81A4B0F9300F318BC /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF9102B61A4B0F9300F318BC /* start.wav */; };
+		FF9102BA1A4B100300F318BC /* UTEAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9102B91A4B100300F318BC /* UTEAudioService.swift */; };
+		FF9C68D31DBDD235009BC898 /* DataRecordingsToUploadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9C68D21DBDD235009BC898 /* DataRecordingsToUploadTableViewController.swift */; };
+		FFA3E6251DCAFAB4007FC896 /* UTECachedExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA3E6241DCAFAB4007FC896 /* UTECachedExperiment.swift */; };
+		FFAA34C01A628E4F00030CD3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAA34BF1A628E4F00030CD3 /* MapKit.framework */; };
+		FFC193601A5688380052D1A1 /* DateTimeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC1935F1A5688380052D1A1 /* DateTimeUtilities.swift */; };
+		FFC193641A568C7B0052D1A1 /* SessionSensorsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC193631A568C7B0052D1A1 /* SessionSensorsService.swift */; };
+		FFC1936D1A56D9F60052D1A1 /* UTEModelSensorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC1936C1A56D9F60052D1A1 /* UTEModelSensorInfo.swift */; };
+		FFC1936F1A56E5770052D1A1 /* UTESessionDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC1936E1A56E5770052D1A1 /* UTESessionDBService.swift */; };
+		FFC821E11A457F7700AB07DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC821E01A457F7700AB07DB /* AppDelegate.swift */; };
+		FFC821E31A457F7700AB07DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC821E21A457F7700AB07DB /* MainViewController.swift */; };
+		FFC821E61A457F7700AB07DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC821E41A457F7700AB07DB /* Main.storyboard */; };
+		FFC821E81A457F7700AB07DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC821E71A457F7700AB07DB /* Images.xcassets */; };
+		FFC821EB1A457F7700AB07DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC821E91A457F7700AB07DB /* LaunchScreen.xib */; };
+		FFCC07541B4BAB4500FBCCF7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCC07531B4BAB4500FBCCF7 /* MBProgressHUD.m */; };
+		FFCC07641B4BB91200FBCCF7 /* beep-warmguitar.aif in Resources */ = {isa = PBXBuildFile; fileRef = FFCC07621B4BB91200FBCCF7 /* beep-warmguitar.aif */; };
+		FFCC07651B4BB91200FBCCF7 /* beep-xylo.aif in Resources */ = {isa = PBXBuildFile; fileRef = FFCC07631B4BB91200FBCCF7 /* beep-xylo.aif */; };
+		FFDC3A841DBCA880000FD302 /* UTESessionRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A831DBCA880000FD302 /* UTESessionRecording.swift */; };
+		FFDC3A871DBCD173000FD302 /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC3A861DBCD173000FD302 /* SettingsStoryboard.storyboard */; };
+		FFE0CBE01DBE1C7000EF9AFF /* ThreadUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0CBDF1DBE1C7000EF9AFF /* ThreadUtilities.swift */; };
+		FFEF1AE71D985444005A5863 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEF1AE61D985444005A5863 /* SCLAlertView.swift */; };
+		FFEF1AE91D985490005A5863 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEF1AE81D985490005A5863 /* SCLExtensions.swift */; };
+		FFF7FEE01A49A2470055ECC5 /* SessionConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF7FEDF1A49A2470055ECC5 /* SessionConnectViewController.swift */; };
+		FFFA6D871A56266F00F80BA5 /* NetworkUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA6D861A56266F00F80BA5 /* NetworkUtilities.swift */; };
+		FFFEF0AD1ACE61C0002B626C /* UTEHttpStreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEF0AC1ACE61C0002B626C /* UTEHttpStreamService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC821F11A457F7700AB07DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC821D31A457F7700AB07DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC821DA1A457F7700AB07DB;
+			remoteInfo = Mobi-UTE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF46013C1A49147F006424C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A2F595E2A24F55D528518FD /* Pods-Mobi-UTE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi-UTE.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobi-UTE/Pods-Mobi-UTE.release.xcconfig"; sourceTree = "<group>"; };
+		304630D974E55CE190A7C2A9 /* Pods_Mobi_UTETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobi_UTETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDD222A40E154AA075D76FC /* Pods-Mobi-UTE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi-UTE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobi-UTE/Pods-Mobi-UTE.debug.xcconfig"; sourceTree = "<group>"; };
+		96F3B32012E0963A819349DF /* Pods-Mobi-UTETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi-UTETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobi-UTETests/Pods-Mobi-UTETests.release.xcconfig"; sourceTree = "<group>"; };
+		E69B89C3B351F9A79AB55A3E /* Pods_Mobi_UTE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobi_UTE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5BF44DA10B9DD5EF75EB1 /* Pods-Mobi-UTETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi-UTETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobi-UTETests/Pods-Mobi-UTETests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF06E09C1A5493A10016D06D /* MobiUTE_Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MobiUTE_Settings.plist; sourceTree = "<group>"; };
+		FF06E09E1A5495280016D06D /* ServerSettingsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerSettingsService.swift; sourceTree = "<group>"; };
+		FF0833DF1DBFC6FD00D44043 /* UTEModelIntervalLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEModelIntervalLabels.swift; sourceTree = "<group>"; };
+		FF10FA731DC5D86800F5C38A /* UTEUploadDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEUploadDataService.swift; sourceTree = "<group>"; };
+		FF10FA761DC5E68300F5C38A /* SessionFinishedHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionFinishedHandlerProtocol.swift; sourceTree = "<group>"; };
+		FF13648B1A63888A0006B233 /* UserSettingsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsService.swift; sourceTree = "<group>"; };
+		FF2591391DDEE8F600155C40 /* UTEModelBluetoothInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEModelBluetoothInfo.swift; sourceTree = "<group>"; };
+		FF25913C1DDFF27500155C40 /* UIDeviceExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
+		FF3A66081D03EF5C00957D0C /* SessionSetupSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSetupSettings.swift; sourceTree = "<group>"; };
+		FF3A660C1D0429F000957D0C /* TransformerUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformerUtilities.swift; sourceTree = "<group>"; };
+		FF3A660E1D043F0000957D0C /* MobiUTETests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobiUTETests.swift; sourceTree = "<group>"; };
+		FF3A66101D043F1800957D0C /* MobiUTE_Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MobiUTE_Settings.plist; sourceTree = "<group>"; };
+		FF3DFBC61A5788570019EBC5 /* default.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.sqlite; sourceTree = "<group>"; };
+		FF46084E1DDCD8EE00736502 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FF54A0801D995C50007CED5E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FF54A0811D995C50007CED5E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FF54A0821D995C50007CED5E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FF54A0831D995C50007CED5E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FF54A0841D995C50007CED5E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FF54A0851D995C50007CED5E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FF54A0861D995C50007CED5E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FF54A0871D995C50007CED5E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FF54A0881D995C50007CED5E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FF54A0891D995C50007CED5E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FF54A08A1D995C50007CED5E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FF6241921AE7F4160031391D /* SessionJourneySummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionJourneySummaryViewController.swift; sourceTree = "<group>"; };
+		FF6425AA1A46AFB800F298A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FF6832F51A48E30A005345DD /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		FF75AE091D0179DC007FA83D /* ExperimentConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperimentConnectViewController.swift; sourceTree = "<group>"; };
+		FF762C321BBA6E92009E8241 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		FF813DB81DBCE029002E3985 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FF883F211D017088005BDB03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF9102B51A4B0F9300F318BC /* finish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = finish.wav; sourceTree = "<group>"; };
+		FF9102B61A4B0F9300F318BC /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		FF9102B91A4B100300F318BC /* UTEAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEAudioService.swift; sourceTree = "<group>"; };
+		FF9C68D21DBDD235009BC898 /* DataRecordingsToUploadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRecordingsToUploadTableViewController.swift; sourceTree = "<group>"; };
+		FFA3E6241DCAFAB4007FC896 /* UTECachedExperiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTECachedExperiment.swift; sourceTree = "<group>"; };
+		FFAA34BF1A628E4F00030CD3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFC1935F1A5688380052D1A1 /* DateTimeUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeUtilities.swift; sourceTree = "<group>"; };
+		FFC193631A568C7B0052D1A1 /* SessionSensorsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionSensorsService.swift; sourceTree = "<group>"; };
+		FFC1936C1A56D9F60052D1A1 /* UTEModelSensorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEModelSensorInfo.swift; sourceTree = "<group>"; };
+		FFC1936E1A56E5770052D1A1 /* UTESessionDBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTESessionDBService.swift; sourceTree = "<group>"; };
+		FFC821DB1A457F7700AB07DB /* Mobi-UTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobi-UTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC821DF1A457F7700AB07DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC821E01A457F7700AB07DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC821E21A457F7700AB07DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FFC821E51A457F7700AB07DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC821E71A457F7700AB07DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../Mobi-UTE/Images.xcassets"; sourceTree = "<group>"; };
+		FFC821EA1A457F7700AB07DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFC821F01A457F7700AB07DB /* Mobi-UTE.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobi-UTE.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC821F51A457F7700AB07DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCC07521B4BAB4500FBCCF7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FFCC07531B4BAB4500FBCCF7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FFCC07621B4BB91200FBCCF7 /* beep-warmguitar.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-warmguitar.aif"; sourceTree = "<group>"; };
+		FFCC07631B4BB91200FBCCF7 /* beep-xylo.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-xylo.aif"; sourceTree = "<group>"; };
+		FFDC3A831DBCA880000FD302 /* UTESessionRecording.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTESessionRecording.swift; sourceTree = "<group>"; };
+		FFDC3A861DBCD173000FD302 /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		FFE0CBDF1DBE1C7000EF9AFF /* ThreadUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadUtilities.swift; sourceTree = "<group>"; };
+		FFEF1AE61D985444005A5863 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		FFEF1AE81D985490005A5863 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		FFF7FEDF1A49A2470055ECC5 /* SessionConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionConnectViewController.swift; sourceTree = "<group>"; };
+		FFFA6D821A56244300F80BA5 /* MobiUTE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobiUTE-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFFA6D861A56266F00F80BA5 /* NetworkUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtilities.swift; sourceTree = "<group>"; };
+		FFFEF0AC1ACE61C0002B626C /* UTEHttpStreamService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTEHttpStreamService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC821D81A457F7700AB07DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF46084F1DDCD8EE00736502 /* CoreBluetooth.framework in Frameworks */,
+				FF6425AB1A46AFB800F298A3 /* CoreLocation.framework in Frameworks */,
+				FFAA34C01A628E4F00030CD3 /* MapKit.framework in Frameworks */,
+				FF762C341BBA7285009E8241 /* libsqlite3.dylib in Frameworks */,
+				8A350746B0AE5189E2DAE3CF /* Pods_Mobi_UTE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC821ED1A457F7700AB07DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDB8C88C04DFC444A1DFA1D /* Pods_Mobi_UTETests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F4FE20D35BB4100D0F70C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EDD222A40E154AA075D76FC /* Pods-Mobi-UTE.debug.xcconfig */,
+				2A2F595E2A24F55D528518FD /* Pods-Mobi-UTE.release.xcconfig */,
+				EBF5BF44DA10B9DD5EF75EB1 /* Pods-Mobi-UTETests.debug.xcconfig */,
+				96F3B32012E0963A819349DF /* Pods-Mobi-UTETests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1F17F2858D73C5681FE0141 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF9102B91A4B100300F318BC /* UTEAudioService.swift */,
+				FF06E09E1A5495280016D06D /* ServerSettingsService.swift */,
+				FFC193631A568C7B0052D1A1 /* SessionSensorsService.swift */,
+				FFC1936E1A56E5770052D1A1 /* UTESessionDBService.swift */,
+				FF13648B1A63888A0006B233 /* UserSettingsService.swift */,
+				FFFEF0AC1ACE61C0002B626C /* UTEHttpStreamService.swift */,
+				FF10FA731DC5D86800F5C38A /* UTEUploadDataService.swift */,
+			);
+			name = Services;
+			path = "../Mobi-UTE/Services";
+			sourceTree = "<group>";
+		};
+		FF10FA751DC5E64100F5C38A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FF10FA761DC5E68300F5C38A /* SessionFinishedHandlerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FF25913B1DDFF24400155C40 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				FF25913C1DDFF27500155C40 /* UIDeviceExt.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		FF3A66071D03EF3D00957D0C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A66081D03EF5C00957D0C /* SessionSetupSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FF3DFBC51A5788570019EBC5 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DFBC61A5788570019EBC5 /* default.sqlite */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		FF54A07F1D995C1A007CED5E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				FF54A0801D995C50007CED5E /* FMDatabase.h */,
+				FF54A0811D995C50007CED5E /* FMDatabase.m */,
+				FF54A0821D995C50007CED5E /* FMDatabaseAdditions.h */,
+				FF54A0831D995C50007CED5E /* FMDatabaseAdditions.m */,
+				FF54A0841D995C50007CED5E /* FMDatabasePool.h */,
+				FF54A0851D995C50007CED5E /* FMDatabasePool.m */,
+				FF54A0861D995C50007CED5E /* FMDatabaseQueue.h */,
+				FF54A0871D995C50007CED5E /* FMDatabaseQueue.m */,
+				FF54A0881D995C50007CED5E /* FMDB.h */,
+				FF54A0891D995C50007CED5E /* FMResultSet.h */,
+				FF54A08A1D995C50007CED5E /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		FF64255C1A46ACC600F298A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF46084E1DDCD8EE00736502 /* CoreBluetooth.framework */,
+				FF762C321BBA6E92009E8241 /* libsqlite3.dylib */,
+				FFAA34BF1A628E4F00030CD3 /* MapKit.framework */,
+				FF6425AA1A46AFB800F298A3 /* CoreLocation.framework */,
+				E69B89C3B351F9A79AB55A3E /* Pods_Mobi_UTE.framework */,
+				304630D974E55CE190A7C2A9 /* Pods_Mobi_UTETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9102B31A4B0F9300F318BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DFBC51A5788570019EBC5 /* DB */,
+				FF9102B41A4B0F9300F318BC /* Audio */,
+			);
+			name = Assets;
+			path = "../Mobi-UTE/Assets";
+			sourceTree = "<group>";
+		};
+		FF9102B41A4B0F9300F318BC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC07621B4BB91200FBCCF7 /* beep-warmguitar.aif */,
+				FFCC07631B4BB91200FBCCF7 /* beep-xylo.aif */,
+				FF9102B51A4B0F9300F318BC /* finish.wav */,
+				FF9102B61A4B0F9300F318BC /* start.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		FFC821D21A457F7700AB07DB = {
+			isa = PBXGroup;
+			children = (
+				FF883F211D017088005BDB03 /* Default-568h@2x.png */,
+				FFE86E0F1A49043400B1F7B9 /* Libraries */,
+				FF64255C1A46ACC600F298A3 /* Frameworks */,
+				FFC821DD1A457F7700AB07DB /* Mobi-UTE */,
+				FFC821F31A457F7700AB07DB /* Mobi-UTETests */,
+				FFC821DC1A457F7700AB07DB /* Products */,
+				B7F4FE20D35BB4100D0F70C0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC821DC1A457F7700AB07DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC821DB1A457F7700AB07DB /* Mobi-UTE.app */,
+				FFC821F01A457F7700AB07DB /* Mobi-UTE.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC821DD1A457F7700AB07DB /* Mobi-UTE */ = {
+			isa = PBXGroup;
+			children = (
+				FF25913B1DDFF24400155C40 /* Ext */,
+				FF10FA751DC5E64100F5C38A /* Protocols */,
+				FFDC3A851DBCD12E000FD302 /* Storyboards */,
+				FF3A66071D03EF3D00957D0C /* Settings */,
+				FFFA6D851A56264700F80BA5 /* Helpers */,
+				FF9102B31A4B0F9300F318BC /* Assets */,
+				FFC822021A457FF000AB07DB /* Models */,
+				FFC822011A457FE400AB07DB /* Delegates */,
+				FFC822001A457FD000AB07DB /* ViewControllers */,
+				FFC821E71A457F7700AB07DB /* Images.xcassets */,
+				FFC822031A45802100AB07DB /* Views */,
+				FFC821DE1A457F7700AB07DB /* Supporting Files */,
+				D1F17F2858D73C5681FE0141 /* Services */,
+			);
+			path = "Mobi-UTE";
+			sourceTree = "<group>";
+		};
+		FFC821DE1A457F7700AB07DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC821DF1A457F7700AB07DB /* Info.plist */,
+				FF06E09C1A5493A10016D06D /* MobiUTE_Settings.plist */,
+				FFFA6D821A56244300F80BA5 /* MobiUTE-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			path = "../Mobi-UTE";
+			sourceTree = "<group>";
+		};
+		FFC821F31A457F7700AB07DB /* Mobi-UTETests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A660E1D043F0000957D0C /* MobiUTETests.swift */,
+				FFC821F41A457F7700AB07DB /* Supporting Files */,
+			);
+			path = "Mobi-UTETests";
+			sourceTree = "<group>";
+		};
+		FFC821F41A457F7700AB07DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A66101D043F1800957D0C /* MobiUTE_Settings.plist */,
+				FFC821F51A457F7700AB07DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFC822001A457FD000AB07DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFC821E21A457F7700AB07DB /* MainViewController.swift */,
+				FF6832F51A48E30A005345DD /* SessionViewController.swift */,
+				FFF7FEDF1A49A2470055ECC5 /* SessionConnectViewController.swift */,
+				FF6241921AE7F4160031391D /* SessionJourneySummaryViewController.swift */,
+				FF75AE091D0179DC007FA83D /* ExperimentConnectViewController.swift */,
+				FF813DB81DBCE029002E3985 /* SettingsViewController.swift */,
+				FF9C68D21DBDD235009BC898 /* DataRecordingsToUploadTableViewController.swift */,
+			);
+			name = ViewControllers;
+			path = "../Mobi-UTE/ViewControllers";
+			sourceTree = "<group>";
+		};
+		FFC822011A457FE400AB07DB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FFC821E01A457F7700AB07DB /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			path = "../Mobi-UTE";
+			sourceTree = "<group>";
+		};
+		FFC822021A457FF000AB07DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1936C1A56D9F60052D1A1 /* UTEModelSensorInfo.swift */,
+				FFDC3A831DBCA880000FD302 /* UTESessionRecording.swift */,
+				FF0833DF1DBFC6FD00D44043 /* UTEModelIntervalLabels.swift */,
+				FFA3E6241DCAFAB4007FC896 /* UTECachedExperiment.swift */,
+				FF2591391DDEE8F600155C40 /* UTEModelBluetoothInfo.swift */,
+			);
+			name = Models;
+			path = "../Mobi-UTE/Models";
+			sourceTree = "<group>";
+		};
+		FFC822031A45802100AB07DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFC821E91A457F7700AB07DB /* LaunchScreen.xib */,
+				FFC821E41A457F7700AB07DB /* Main.storyboard */,
+			);
+			name = Views;
+			path = "../Mobi-UTE";
+			sourceTree = "<group>";
+		};
+		FFCC07501B4BAAC800FBCCF7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC07521B4BAB4500FBCCF7 /* MBProgressHUD.h */,
+				FFCC07531B4BAB4500FBCCF7 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = "../../Mobi-UTE/Libraries/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		FFDC3A851DBCD12E000FD302 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3A861DBCD173000FD302 /* SettingsStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FFE86E0F1A49043400B1F7B9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FF54A07F1D995C1A007CED5E /* FMDB */,
+				FFEF1AE51D985410005A5863 /* SCLAlertView */,
+				FFCC07501B4BAAC800FBCCF7 /* MBProgressHUD */,
+			);
+			name = Libraries;
+			path = "Mobi-UTE/Libraries";
+			sourceTree = "<group>";
+		};
+		FFEF1AE51D985410005A5863 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF1AE61D985444005A5863 /* SCLAlertView.swift */,
+				FFEF1AE81D985490005A5863 /* SCLExtensions.swift */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		FFFA6D851A56264700F80BA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA6D861A56266F00F80BA5 /* NetworkUtilities.swift */,
+				FFC1935F1A5688380052D1A1 /* DateTimeUtilities.swift */,
+				FF3A660C1D0429F000957D0C /* TransformerUtilities.swift */,
+				FFE0CBDF1DBE1C7000EF9AFF /* ThreadUtilities.swift */,
+			);
+			name = Helpers;
+			path = "../Mobi-UTE/Helpers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC821DA1A457F7700AB07DB /* Mobi-UTE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC821FA1A457F7700AB07DB /* Build configuration list for PBXNativeTarget "Mobi-UTE" */;
+			buildPhases = (
+				5591AB1D73561C0C6C11CC8C /* [CP] Check Pods Manifest.lock */,
+				FFC821D71A457F7700AB07DB /* Sources */,
+				FFC821D81A457F7700AB07DB /* Frameworks */,
+				FFC821D91A457F7700AB07DB /* Resources */,
+				FF46013C1A49147F006424C7 /* Embed Frameworks */,
+				50FF5BE813880718A793B1CB /* [CP] Embed Pods Frameworks */,
+				FB5EFDDE1DDFECEBAD86E5A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobi-UTE";
+			productName = Mobi-UTE;
+			productReference = FFC821DB1A457F7700AB07DB /* Mobi-UTE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFC821EF1A457F7700AB07DB /* Mobi-UTETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC821FD1A457F7700AB07DB /* Build configuration list for PBXNativeTarget "Mobi-UTETests" */;
+			buildPhases = (
+				8CF4D8EFCFDB44A176A5A9AD /* [CP] Check Pods Manifest.lock */,
+				FFC821EC1A457F7700AB07DB /* Sources */,
+				FFC821ED1A457F7700AB07DB /* Frameworks */,
+				FFC821EE1A457F7700AB07DB /* Resources */,
+				2AB03D913E8384C4401B2F71 /* [CP] Embed Pods Frameworks */,
+				C47DB07DDFB026C839A11B6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC821F21A457F7700AB07DB /* PBXTargetDependency */,
+			);
+			name = "Mobi-UTETests";
+			productName = Mobi-UTETests;
+			productReference = FFC821F01A457F7700AB07DB /* Mobi-UTE.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC821D31A457F7700AB07DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "RMIT University";
+				TargetAttributes = {
+					FFC821DA1A457F7700AB07DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 85DU58398H;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FFC821EF1A457F7700AB07DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = FFC821DA1A457F7700AB07DB;
+					};
+				};
+			};
+			buildConfigurationList = FFC821D61A457F7700AB07DB /* Build configuration list for PBXProject "Mobi-UTE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC821D21A457F7700AB07DB;
+			productRefGroup = FFC821DC1A457F7700AB07DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC821DA1A457F7700AB07DB /* Mobi-UTE */,
+				FFC821EF1A457F7700AB07DB /* Mobi-UTETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC821D91A457F7700AB07DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCC07651B4BB91200FBCCF7 /* beep-xylo.aif in Resources */,
+				FFC821E61A457F7700AB07DB /* Main.storyboard in Resources */,
+				FFC821EB1A457F7700AB07DB /* LaunchScreen.xib in Resources */,
+				FF883F221D017088005BDB03 /* Default-568h@2x.png in Resources */,
+				FFC821E81A457F7700AB07DB /* Images.xcassets in Resources */,
+				FF9102B81A4B0F9300F318BC /* start.wav in Resources */,
+				FF9102B71A4B0F9300F318BC /* finish.wav in Resources */,
+				FFCC07641B4BB91200FBCCF7 /* beep-warmguitar.aif in Resources */,
+				FF3DFBC71A5788570019EBC5 /* default.sqlite in Resources */,
+				FF06E09D1A5493A10016D06D /* MobiUTE_Settings.plist in Resources */,
+				FFDC3A871DBCD173000FD302 /* SettingsStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC821EE1A457F7700AB07DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A66111D043F1800957D0C /* MobiUTE_Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB03D913E8384C4401B2F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobi-UTETests/Pods-Mobi-UTETests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FF5BE813880718A793B1CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobi-UTE/Pods-Mobi-UTE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5591AB1D73561C0C6C11CC8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF4D8EFCFDB44A176A5A9AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C47DB07DDFB026C839A11B6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobi-UTETests/Pods-Mobi-UTETests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5EFDDE1DDFECEBAD86E5A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobi-UTE/Pods-Mobi-UTE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC821D71A457F7700AB07DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0833E01DBFC6FD00D44043 /* UTEModelIntervalLabels.swift in Sources */,
+				FFF7FEE01A49A2470055ECC5 /* SessionConnectViewController.swift in Sources */,
+				FFFA6D871A56266F00F80BA5 /* NetworkUtilities.swift in Sources */,
+				FFEF1AE71D985444005A5863 /* SCLAlertView.swift in Sources */,
+				FF9C68D31DBDD235009BC898 /* DataRecordingsToUploadTableViewController.swift in Sources */,
+				FFC821E31A457F7700AB07DB /* MainViewController.swift in Sources */,
+				FFE0CBE01DBE1C7000EF9AFF /* ThreadUtilities.swift in Sources */,
+				FFC193601A5688380052D1A1 /* DateTimeUtilities.swift in Sources */,
+				FF3A660D1D0429F000957D0C /* TransformerUtilities.swift in Sources */,
+				FF54A08F1D995C50007CED5E /* FMResultSet.m in Sources */,
+				FF13648C1A63888A0006B233 /* UserSettingsService.swift in Sources */,
+				FFCC07541B4BAB4500FBCCF7 /* MBProgressHUD.m in Sources */,
+				FFC1936D1A56D9F60052D1A1 /* UTEModelSensorInfo.swift in Sources */,
+				FF10FA771DC5E68300F5C38A /* SessionFinishedHandlerProtocol.swift in Sources */,
+				FF54A08B1D995C50007CED5E /* FMDatabase.m in Sources */,
+				FF54A08E1D995C50007CED5E /* FMDatabaseQueue.m in Sources */,
+				FF54A08C1D995C50007CED5E /* FMDatabaseAdditions.m in Sources */,
+				FFC1936F1A56E5770052D1A1 /* UTESessionDBService.swift in Sources */,
+				FF6832F61A48E30A005345DD /* SessionViewController.swift in Sources */,
+				FF25913A1DDEE8F600155C40 /* UTEModelBluetoothInfo.swift in Sources */,
+				FF54A08D1D995C50007CED5E /* FMDatabasePool.m in Sources */,
+				FFFEF0AD1ACE61C0002B626C /* UTEHttpStreamService.swift in Sources */,
+				FFDC3A841DBCA880000FD302 /* UTESessionRecording.swift in Sources */,
+				FF6241931AE7F4160031391D /* SessionJourneySummaryViewController.swift in Sources */,
+				FFC821E11A457F7700AB07DB /* AppDelegate.swift in Sources */,
+				FFEF1AE91D985490005A5863 /* SCLExtensions.swift in Sources */,
+				FF3A66091D03EF5C00957D0C /* SessionSetupSettings.swift in Sources */,
+				FFA3E6251DCAFAB4007FC896 /* UTECachedExperiment.swift in Sources */,
+				FF25913D1DDFF27500155C40 /* UIDeviceExt.swift in Sources */,
+				FF10FA741DC5D86800F5C38A /* UTEUploadDataService.swift in Sources */,
+				FF9102BA1A4B100300F318BC /* UTEAudioService.swift in Sources */,
+				FF75AE0A1D0179DC007FA83D /* ExperimentConnectViewController.swift in Sources */,
+				FF813DB91DBCE029002E3985 /* SettingsViewController.swift in Sources */,
+				FF06E09F1A5495280016D06D /* ServerSettingsService.swift in Sources */,
+				FFC193641A568C7B0052D1A1 /* SessionSensorsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC821EC1A457F7700AB07DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A660F1D043F0000957D0C /* MobiUTETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFC821F21A457F7700AB07DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC821DA1A457F7700AB07DB /* Mobi-UTE */;
+			targetProxy = FFC821F11A457F7700AB07DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFC821E41A457F7700AB07DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC821E51A457F7700AB07DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFC821E91A457F7700AB07DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC821EA1A457F7700AB07DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC821F81A457F7700AB07DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC821F91A457F7700AB07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC821FB1A457F7700AB07DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDD222A40E154AA075D76FC /* Pods-Mobi-UTE.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 85DU58398H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mobi-UTE/Libraries",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Mobi-UTE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lsqlite3",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MobiUTE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ute.mobi;
+				PRODUCT_NAME = "Mobi-UTE";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobi-UTE/MobiUTE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFC821FC1A457F7700AB07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2F595E2A24F55D528518FD /* Pods-Mobi-UTE.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 85DU58398H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mobi-UTE/Libraries",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "$(SRCROOT)/Mobi-UTE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lsqlite3",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-MobiUTE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ute.mobi;
+				PRODUCT_NAME = "Mobi-UTE";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mobi-UTE/MobiUTE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FFC821FE1A457F7700AB07DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF5BF44DA10B9DD5EF75EB1 /* Pods-Mobi-UTETests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Mobi-UTETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Mobi-UTE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobi-UTE.app/Mobi-UTE";
+			};
+			name = Debug;
+		};
+		FFC821FF1A457F7700AB07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F3B32012E0963A819349DF /* Pods-Mobi-UTETests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Mobi-UTETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Mobi-UTE";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobi-UTE.app/Mobi-UTE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC821D61A457F7700AB07DB /* Build configuration list for PBXProject "Mobi-UTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC821F81A457F7700AB07DB /* Debug */,
+				FFC821F91A457F7700AB07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC821FA1A457F7700AB07DB /* Build configuration list for PBXNativeTarget "Mobi-UTE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC821FB1A457F7700AB07DB /* Debug */,
+				FFC821FC1A457F7700AB07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC821FD1A457F7700AB07DB /* Build configuration list for PBXNativeTarget "Mobi-UTETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC821FE1A457F7700AB07DB /* Debug */,
+				FFC821FF1A457F7700AB07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC821D31A457F7700AB07DB /* Project object */;
+}

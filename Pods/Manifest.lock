@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (4.0.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MBProgressHUD (1.0.0)
+  - ReachabilitySwift (3)
+  - SnapKit (3.0.2)
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FMDB
+  - MBProgressHUD (~> 1.0.0)
+  - ReachabilitySwift (~> 3)
+  - SnapKit (~> 3.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: 44930d56e4f1f0b1a8ac8b8c357c9779d7f2f1cd
+
+COCOAPODS: 1.1.0.rc.2

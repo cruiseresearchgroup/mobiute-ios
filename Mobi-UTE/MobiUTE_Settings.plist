@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseServerUrl</key>
+	<string>http://baseurl-or-ipaddress:8080/</string>
+	<key>TestDeviceUUID</key>
+	<string>E6D936C5-3B73-4F41-8CD3-063210A2323A</string>
+</dict>
+</plist>
